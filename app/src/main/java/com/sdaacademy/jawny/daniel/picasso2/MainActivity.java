@@ -1,8 +1,7 @@
 package com.sdaacademy.jawny.daniel.picasso2;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
@@ -56,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         Picasso.with(this)
                 .load("https://goo.gl/JfEm9H")
                 .error(R.drawable.error_image)
-                .resize(150,200)
+                .resize(150, 200)
                 .into(mImageView4);
         Picasso.with(this)
                 .load("https://goo.gl/JfEm9H")
